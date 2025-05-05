@@ -1,0 +1,92 @@
+/* Estilo general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef2f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor centrado con sombra elegante */
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos principales */
+h1, h2 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Formularios modernos */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Etiquetas de formulario */
+label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Campos de texto */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Botón principal */
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Mensajes de error */
+.error-message {
+  color: #d9534f;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Links bonitos */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}

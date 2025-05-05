@@ -1,0 +1,58 @@
+<h2 class="text-center mb-4">Nuevo Paciente</h2>
+
+<div class="mb-3 text-end">
+  <a href="/paciente" class="btn btn-info">
+    <i class="bi bi-arrow-left-circle"></i> Lista de Pacientes
+  </a>
+</div>
+
+<form action="/paciente/save" method="POST" class="p-4 border rounded bg-white shadow-sm">
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="idpaciente" class="form-label">ID Paciente</label>
+      <input type="text" class="form-control" name="idpaciente" id="idpaciente" required>
+    </div>
+    <div class="col-md-6">
+      <label for="login" class="form-label">Login</label>
+      <input type="text" class="form-control" name="login" id="login" required>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" name="password" id="password" required>
+    </div>
+    <div class="col-md-6">
+      <label for="movil" class="form-label">Móvil</label>
+      <input type="text" class="form-control" name="movil" id="movil" required>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label for="apellidos" class="form-label">Apellidos</label>
+      <input type="text" class="form-control" name="apellidos" id="apellidos" required>
+    </div>
+    <div class="col-md-6">
+      <label for="nombres" class="form-label">Nombres</label>
+      <input type="text" class="form-control" name="nombres" id="nombres" required>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="correo" class="form-label">Correo Electrónico</label>
+    <input type="email" class="form-control" name="correo" id="correo" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="direccion" class="form-label">Dirección</label>
+    <input type="text" class="form-control" name="direccion" id="direccion" required>
+  </div>
+
+  <div class="text-end">
+    <button type="submit" class="btn btn-primary">
+      <i class="bi bi-check-circle"></i> Grabar
+    </button>
+  </div>
+</form>
